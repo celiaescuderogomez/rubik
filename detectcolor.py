@@ -153,7 +153,7 @@ def equivalencia(case):
 def get_approx_color(hex_color):
     orig = wc.hex_to_rgb(hex_color)
     similarity = {}
-    for hex_code, color_name in wc.css3_hex_to_names.items():
+    for hex_code, color_name in wc.CSS3_HEX_TO_NAMES.items():
         approx = wc.hex_to_rgb(hex_code)
         similarity[color_name] = sum(np.subtract(orig, approx) ** 2)
     return min(similarity, key=similarity.get)
@@ -206,7 +206,6 @@ def detectarColores():
         hex = '#%02x%02x%02x' % (int(colorRGB[0]), int(colorRGB[1]), int(colorRGB[2]))
         name_color = get_approx_color(hex.upper())
         stringColor = equivalencia(name_color)
-        print(name_color + ' ------> ' + hex )
         if stringColor:
             stringColores = stringColores + '' + stringColor
     return stringColores
