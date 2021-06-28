@@ -13,6 +13,9 @@ servo_R_A.cerrar()
 
 servo_L_A.cerrar()
 servo_R_R.horario()
+servo_R_R.antiHorario()
 servo_R_R.centrar()
 servo_L_R.horario()
+servo_L_R.antiHorario()
+
 servo_L_R.centrar()

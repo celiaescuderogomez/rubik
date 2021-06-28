@@ -14,6 +14,7 @@ print("Cara UP: Capturando imagen...")
 camera.capturarImagen()
 print("Cara UP: Analizando colores...")
 caraUP = detectcolor.detectarColores()
+caraUP ="bbygyyrry"
 print("Cara UP: " + caraUP)
 respuestaCaraUP = input("Son correctos estos colores?(y/n) ")
 if respuestaCaraUP == 'y':
@@ -30,6 +31,7 @@ print("Cara LEFT: Capturando imagen...")
 camera.capturarImagen()
 print("Cara LEFT: Analizando colores...")
 caraLEFT = detectcolor.detectarColores()
+caraLEFT = "oobwbwwwr"
 print("Cara LEFT: " + caraLEFT)
 respuestaCaraLEFT = input("Son correctos estos colores?(y/n) ")
 if respuestaCaraLEFT == 'y':
@@ -49,6 +51,7 @@ print("Cara FRONT: Capturando imagen...")
 camera.capturarImagen()
 print("Cara FRONT: Analizando colores...")
 caraFRONT = detectcolor.detectarColores()
+caraFRONT = "wbrgrybbw"
 print("Cara FRONT: " + caraFRONT)
 respuestaCaraFRONT = input("Son correctos estos colores?(y/n) ")
 if respuestaCaraFRONT == 'y':
@@ -68,6 +71,7 @@ print("Cara RIGHT: Capturando imagen...")
 camera.capturarImagen()
 print("Cara RIGHT: Analizando colores...")
 caraRIGHT = detectcolor.detectarColores()
+caraRIGHT = "gogrgwggr"
 print("Cara RIGHT: " + caraRIGHT)
 respuestaCaraRIGHT = input("Son correctos estos colores?(y/n) ")
 if respuestaCaraRIGHT == 'y':
@@ -87,6 +91,7 @@ print("Cara BACK: Capturando imagen...")
 camera.capturarImagen()
 print("Cara BACK: Analizando colores...")
 caraBACK = detectcolor.detectarColores()
+caraBACK = "ooyoorggb"
 print("Cara BACK: " + caraBACK)
 respuestaCaraBACK = input("Son correctos estos colores?(y/n) ")
 if respuestaCaraBACK == 'y':
@@ -106,6 +111,7 @@ print("Cara DOWN: Capturando imagen...")
 camera.capturarImagen()
 print("Cara DOWN: Analizando colores...")
 caraDOWN = detectcolor.detectarColores()
+caraDOWN = "wroywboyy"
 print("Cara DOWN: " + caraDOWN)
 respuestaCaraDOWN = input("Son correctos estos colores?(y/n) ")
 if respuestaCaraDOWN == 'y':

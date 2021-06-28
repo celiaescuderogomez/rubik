@@ -39,7 +39,7 @@ def cerrar():
     GPIO.setwarnings(False)
     GPIO.setup(pwm_gpio, GPIO.OUT)
     pwm = GPIO.PWM(pwm_gpio, frequence)
-    pwm.start(angle_to_percent(50))
+    pwm.start(angle_to_percent(55))
     time.sleep(2)
     pwm.stop()
     GPIO.cleanup()
